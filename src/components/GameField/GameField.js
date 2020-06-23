@@ -8,10 +8,14 @@ export const GameField = () => {
   const dispatch = useDispatch();
   const start = useSelector((state) => state.start);
   const usersChoice = useSelector((state) => state.usersChoice);
+  const isFlying = useSelector((state) => state.isFlying);
   const rows = [1, 2, 3];
   const columns = [1, 2, 3];
 
   const handleClick = (event) => {
+    if (isFlying) {
+      return;
+    }
     const choice = [
       parseInt(event.target.dataset.row),
       parseInt(event.target.dataset.column),

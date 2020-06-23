@@ -9,12 +9,16 @@ export const Labyrinth = () => {
   const dispatch = useDispatch();
   const isWrong = useSelector((state) => state.wrongAnswer);
   const isRight = useSelector((state) => state.rightAnswer);
+  const isFlying = useSelector((state) => state.isFlying);
 
   useEffect(() => {
     dispatch(newGame());
   }, [dispatch]);
 
   const handleClick = () => {
+    if (isFlying) {
+      return
+    }
     dispatch(newGame());
   };
 

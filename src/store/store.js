@@ -25,6 +25,7 @@ const initialState = {
   wrongAnswer: false,
   rightAnswer: false,
   step: -1,
+  isFlying: false,
 };
 
 const reducer = (state, action) => {
@@ -38,16 +39,19 @@ const reducer = (state, action) => {
       return {
         ...state,
         usersChoice: action.usersChoice,
+        isFlying: true,
       };
     case WRONG_ANSWER:
       return {
         ...state,
         wrongAnswer: true,
+        isFlying: false,
       };
     case RIGHT_ANSWER:
       return {
         ...state,
         rightAnswer: true,
+        isFlying: false,
       };
     case SET_STEP:
       return {
