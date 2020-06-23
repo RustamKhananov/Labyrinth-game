@@ -1,1 +1,1 @@
--[Demo Link] (https://rustamkhananov.github.io/Labyrinth/)
+-[Demo Link] (https://rustamkhananov.github.io/Labyrinth-game/index.html)
