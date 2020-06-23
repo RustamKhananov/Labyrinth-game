@@ -1,0 +1,23 @@
+.Labyrinth {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  &__new-game {
+    width: 200px;
+    height: 30px;
+    background-color: lightsalmon;
+    color: lime;
+    font-weight: bolder;
+  }
+
+  &__message {
+    z-index: 1;
+    position: absolute;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
