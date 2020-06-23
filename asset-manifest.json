@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.403c733d.chunk.css",
+    "main.js": "/static/js/main.bfba5061.chunk.js",
+    "main.js.map": "/static/js/main.bfba5061.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd78a477.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd78a477.js.map",
+    "static/js/2.58c5784a.chunk.js": "/static/js/2.58c5784a.chunk.js",
+    "static/js/2.58c5784a.chunk.js.map": "/static/js/2.58c5784a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7b4b75306c1f73f85c1e77ed7e77610.js": "/precache-manifest.c7b4b75306c1f73f85c1e77ed7e77610.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.403c733d.chunk.css.map": "/static/css/main.403c733d.chunk.css.map",
+    "static/js/2.58c5784a.chunk.js.LICENSE.txt": "/static/js/2.58c5784a.chunk.js.LICENSE.txt",
+    "static/media/Bee.scss": "/static/media/bee.f58f0244.png",
+    "static/media/GameField.scss": "/static/media/honey.f80cca51.png",
+    "static/media/App.scss": "/static/media/forest.2cf2bc7b.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd78a477.js",
+    "static/js/2.58c5784a.chunk.js",
+    "static/css/main.403c733d.chunk.css",
+    "static/js/main.bfba5061.chunk.js"
+  ]
+}
