@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Labyrinth-game/precache-manifest.a9f8d048faab73ee19520be60003bb72.js"
+  "/Labyrinth-game/precache-manifest.9489533405b284d7d25b0c30494da300.js"
 );
 
 self.addEventListener('message', (event) => {
