@@ -5,6 +5,7 @@ import { wrongAnswer, rightAnswer, setStep } from "../../store/store";
 
 export const Bee = () => {
   const moves = useSelector((state) => state.moves);
+  const goal = useSelector((state) => state.goal);
   const usersChoice = useSelector((state) => state.usersChoice);
   const start = useSelector((state) => state.start);
   const [position, setPosition] = useState(start);
@@ -19,12 +20,12 @@ export const Bee = () => {
       }, i * 2000);
     }
     setTimeout(() => {
-      if (position[0] === usersChoice[0] && +position[1] === usersChoice[1]) {
+      if (goal[0] === usersChoice[0] && goal[1] === usersChoice[1]) {
         dispatch(rightAnswer(true));
       } else {
         dispatch(wrongAnswer(true));
       }
-    }, 21000);
+    }, 20000);
   };
 
   useEffect(() => {
